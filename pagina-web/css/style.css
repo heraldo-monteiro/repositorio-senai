@@ -1,0 +1,93 @@
+/* BARRA DE MENU DA PÁGINA */
+header img{
+    height: 80px;
+    width: 80px;
+}
+
+
+/* CONTEÚDO DA PÁGINA */
+main{
+    min-height: 500px;
+}
+
+
+/* banner */
+#section-banners img{
+    height: 500px;
+
+}
+
+/* produtos vendidos */
+#section-vendidos{
+    text-align: center;
+
+}
+
+#section-vendidos h2{
+    font-weight:  bold;
+    padding: 20px;
+}
+
+#section-vendidos img{
+    height: 300px;
+    border-radius: 10px; 
+
+}
+
+#section-vendidos .card{
+    margin: 5px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    
+}
+
+#section-vendidos .preco{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.card-group{
+    
+}
+
+
+/* RODAPÉ DA PÁGINA */
+footer{
+    text-align: center;
+
+}
+
+footer p{
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+/* Botão de Voltar */
+
+#voltar-topo{
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+ 
+}
+
+
+/* PÁGINA DE LOGIN */
+
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1{
+    text-align: center;
+    
+}
+
+#section-login input{
+    width: 100%;
+    
+}
+
