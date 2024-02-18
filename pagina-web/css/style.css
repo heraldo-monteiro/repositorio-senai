@@ -18,40 +18,35 @@ main{
 }
 
 /* produtos vendidos */
-#section-vendidos{
+#sessao-vendas{
     text-align: center;
 
 }
 
-#section-vendidos h2{
+#sessao-vendas h2{
     font-weight:  bold;
     padding: 20px;
 }
 
-#section-vendidos img{
+#sessao-vendas img{
     height: 300px;
     border-radius: 10px; 
 
 }
 
-#section-vendidos .card{
+#sessao-vendas .card{
     margin: 5px;
     border: 1px solid #CCC;
     border-radius: 10px;
     
 }
 
-#section-vendidos .preco{
+#sessao-vendas .preco{
     color: red;
     font-size: 18px;
     font-weight: bold;
     
 }
-
-.card-group{
-    
-}
-
 
 /* RODAPÉ DA PÁGINA */
 footer{
@@ -89,5 +84,19 @@ footer p{
 #section-login input{
     width: 100%;
     
+} 
+
+/* FORMULÁRIO DE CADASTRO */
+
+#section-cadastro{
+    padding: 50px;
+    text-align: center;
+    background-color: #FFF;
+
 }
 
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+
+}
