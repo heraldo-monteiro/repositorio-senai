@@ -8,8 +8,9 @@ header img{
 /* CONTEÚDO DA PÁGINA */
 main{
     min-height: 500px;
-}
 
+
+}
 
 /* banner */
 #section-banners img{
@@ -72,23 +73,29 @@ footer p{
 
 /* PÁGINA DE LOGIN */
 
-#section-login{
-    margin-top: 100px;
+#sessao-login{
+    margin-top: 50px;
+    border: 2px solid;
+    width: 325px;
+    border-radius: 10px;
+    background: #CCC;
+    margin-left: 200px;
+  
 }
 
-#section-login h1{
+#sessao-login h1{
     text-align: center;
     
 }
 
-#section-login input{
+#sessao-login input{
     width: 100%;
     
 } 
 
 /* FORMULÁRIO DE CADASTRO */
 
-#section-cadastro{
+#sessao-cadastro{
     padding: 50px;
     text-align: center;
     background-color: #FFF;
@@ -100,3 +107,5 @@ footer p{
     display: none;
 
 }
+
+
