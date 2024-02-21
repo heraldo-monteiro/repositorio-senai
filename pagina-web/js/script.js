@@ -20,10 +20,8 @@ function login(){
         logado = 1;
 
     }else if(logado == 0){        
-        alert("Acesso Negado!  Usuário ou Senha incoreto!");
+        alert("Usuário ou Senha Invalido!");
 
-    }else{
-        alert("Usuário e Senha não informado!");
     }
 
 }
