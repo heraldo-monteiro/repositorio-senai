@@ -53,63 +53,69 @@
         </nav>
     </header>
 
-    <main>    
-        <section id="sessao-login">          
-            <h1>Login</h1>            
-            <div class="d-flex justify-content-center">
-                <form method="post" action="" id="login">
-                    <p>
-                        <label for="usuario">Nome: </label>
-                        <input id="usuario" name="usuario" required="required" type="text"
-                            placeholder="Insira o seu usuário" class="form-control" />
-                    </p>
-                    <p>
-                        <label for="senha"> Senha: </label>
-                        <input id="senha" name="senha" required="required" type="password"
-                            placeholder="Insira a sua senha" class="form-control" />
-                    </p>
-                    <p>
-                        <input type="button" value="login" class="btn btn-primary" id="bt-login" onclick="login()" />
-                    </p>
-                </form>
-            </div>        
-        </section>
-    
-
-        <section id="sessao-cadastro">
-            <div id="botao-cadastrar">
-                <button type="button" class="btn btn-info">Não é cadastrado ainda? Cadastre-se</button>
-            </div>
-            
-            <div id="form-cadastrar">
-                <h1>Criar minha conta</h1>
-                <p>Informe os seus dados abaixo para criar sua conta.</p>
-               
+    <main>  
+        <div id="pagina-login">
+            <section id="sessao-login">   
+                <div class="txtLogin">
+                    <h1>Login</h1>
+                </div>       
+                 
                 <div class="d-flex justify-content-center">            
                     <form method="post" action="" id="login">
                         <p>
-                            <label for="usuario">Usuário: </label>
+                            <label for="usuario">Nome: </label>
                             <input id="usuario" name="usuario" required="required" type="text"
-                                placeholder="ex. nome de usuário" class="form-control" />
+                                placeholder="Insira o seu usuário" class="form-control" />
                         </p>
                         <p>
-                            <label for="email">E-mail: </label>
-                            <input id="email" name="email" required="required" type="email"
-                                placeholder="seu@email.com.br" class="form-control" />
-                        </p>
-                        <p>
-                            <label for="senha">Senha: </label>
+                            <label for="senha"> Senha: </label>
                             <input id="senha" name="senha" required="required" type="password"
-                                placeholder="mínimo de 6 caracteres" class="form-control" />
+                                placeholder="Insira a sua senha" class="form-control" />
                         </p>
                         <p>
-                            <input type="button" value="Cadastrar" class="btn btn-primary" id="bt-cadastrar"
-                                onclick="cadastro()" />
+                            <input type="button" value="login" class="btn btn-primary" id="bt-login" onclick="login()" />
                         </p>
-                    </form>            
-                </div>               
-            </div>
-        </section>
+                    </form>
+                </div>        
+            </section>        
+
+            <section id="sessao-cadastro">           
+
+                <div id="botao-cadastrar">
+                    <button type="button" class="btn btn-info">Não é cadastrado ainda? Cadastre-se</button>
+                </div>
+                
+                <div id="form-cadastrar">
+                    <div class="txtForm-cadastro"> 
+                        <h1>Criar minha conta</h1>
+                        <p>Informe os seus dados abaixo para criar sua conta.</p>
+                    </div>                   
+                    <div class="d-flex justify-content-center">            
+                        <form method="post" action="" id="login">
+                            <p>
+                                <label for="usuario">Usuário: </label>
+                                <input id="usuario" name="usuario" required="required" type="text"
+                                    placeholder="ex. nome de usuário" class="form-control" />
+                            </p>
+                            <p>
+                                <label for="email">E-mail: </label>
+                                <input id="email" name="email" required="required" type="email"
+                                    placeholder="seu@email.com.br" class="form-control" />
+                            </p>
+                            <p>
+                                <label for="senha">Senha: </label>
+                                <input id="senha" name="senha" required="required" type="password"
+                                    placeholder="mínimo de 6 caracteres" class="form-control" />
+                            </p>
+                            <p>
+                                <input type="button" value="Cadastrar" class="btn btn-primary" id="bt-cadastrar"
+                                    onclick="cadastro()" />
+                            </p>
+                        </form>            
+                    </div>               
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>

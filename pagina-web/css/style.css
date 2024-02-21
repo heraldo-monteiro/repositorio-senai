@@ -4,20 +4,23 @@ header img{
     width: 80px;
 }
 
-
+/*--------------------------------------------------------------------------------------*/
 /* CONTEÚDO DA PÁGINA */
 main{
+    margin: 5px;    
     min-height: 500px;
-
+   
 
 }
 
+/*--------------------------------------------------------------------------------------*/
 /* banner */
 #section-banners img{
     height: 500px;
 
 }
 
+/*--------------------------------------------------------------------------------------*/
 /* produtos vendidos */
 #sessao-vendas{
     text-align: center;
@@ -49,6 +52,80 @@ main{
     
 }
 
+/*--------------------------------------------------------------------------------------*/
+/* Botão de Voltar */
+
+#voltar-topo{
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    border: 2px solid;
+ 
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* PÁGINA DE LOGIN */
+
+#pagina-login{
+    margin: 5px;
+}
+
+#sessao-login{    
+    border: 2px solid;
+    border-radius: 10px;
+    margin: auto;
+    width: 390px;
+    height: 320px;
+    margin-top: 50px;
+
+}
+
+#sessao-login h1{
+    text-align: center;
+    color: green;
+    
+}
+
+#sessao-login input{
+    width: 100%;
+    
+} 
+
+.txtLogin{
+    background-color: rgb(12, 94 ,34);
+    padding: 8px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* FORMULÁRIO DE CADASTRO */
+
+#sessao-cadastro{
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    width: 490px;
+    background-color: #FFF;
+
+
+}
+
+#form-cadastrar{
+    padding: 0px;
+    display: none;
+    border: 2px solid;
+    border-radius: 10px;
+    background: #CCC;
+
+}
+
+.txtForm-cadastro{
+    background-color: rgb(12, 94 ,34);
+    border-radius: 8px 8px 0px 0px;
+  width: 100%;
+}
+
+/*--------------------------------------------------------------------------------------*/
 /* RODAPÉ DA PÁGINA */
 footer{
     text-align: center;
@@ -58,53 +135,6 @@ footer{
 footer p{
     font-weight: bold;
     padding: 10px;
-}
-
-
-/* Botão de Voltar */
-
-#voltar-topo{
-    position: fixed;
-    bottom: 10px;
-    right: 50px;
- 
-}
-
-
-/* PÁGINA DE LOGIN */
-
-#sessao-login{
-    margin-top: 50px;
-    border: 2px solid;
-    width: 325px;
-    border-radius: 10px;
-    background: #CCC;
-    margin-left: 200px;
-  
-}
-
-#sessao-login h1{
-    text-align: center;
-    
-}
-
-#sessao-login input{
-    width: 100%;
-    
-} 
-
-/* FORMULÁRIO DE CADASTRO */
-
-#sessao-cadastro{
-    padding: 50px;
-    text-align: center;
-    background-color: #FFF;
-
-}
-
-#form-cadastrar{
-    padding: 50px;
-    display: none;
 
 }
 
